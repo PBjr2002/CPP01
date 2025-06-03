@@ -1,15 +1,15 @@
 # CPP 01
 
-## Module Overview
+## Project Overview
 
-**CPP 01** expands upon foundational object-oriented principles by introducing memory allocation (stack vs heap), references, pointers, and class composition. The exercises in this module are designed to reinforce a clear understanding of how memory and object lifecycles interact with C++ syntax and design.
+**CPP 01** expands upon foundational object-oriented principles by introducing memory allocation, references, pointers, and class composition.
 
 This project focused on:
 
 - Creating and destroying objects with control over memory  
 - Differentiating between heap and stack allocation  
 - Using references and pointers appropriately  
-- Designing class interaction and ownership (e.g., composition)  
+- Designing class interaction and ownership 
 - Managing file I/O with string substitution  
 - Using pointers to member functions instead of nested conditionals  
 
@@ -19,10 +19,8 @@ This project focused on:
 **Goal:** Implement a simple Zombie class with the ability to announce itself and investigate differences between stack and heap allocation.
 
 **Key concepts:**  
-- Stack vs Heap allocation  
-- Object creation and scope  
-- Constructors and destructors  
-- Debugging memory lifecycle  
+- Stack vs Heap allocation
+- Constructors and destructors
 
 ---
 
@@ -30,8 +28,7 @@ This project focused on:
 **Goal:** Create a dynamically allocated horde of Zombie instances and manage their lifecycle.
 
 **Key concepts:**  
-- Dynamic memory allocation  
-- Constructor initialization  
+- Dynamic memory allocation   
 - Manual deallocation and leak checking  
 
 ---
@@ -52,8 +49,7 @@ This project focused on:
 **Key concepts:**  
 - Class composition  
 - Object ownership models  
-- Reference vs pointer semantics  
-- Encapsulation of behavior through classes  
+- Reference vs pointer semantics   
 
 ---
 
@@ -63,8 +59,7 @@ This project focused on:
 **Key concepts:**  
 - File input/output with C++ streams  
 - String parsing and substitution  
-- Robust input validation  
-- Error handling  
+- Robust input validation   
 
 ---
 
@@ -72,7 +67,6 @@ This project focused on:
 **Goal:** Implement dynamic dispatching of class methods using pointers to member functions to simulate conditional behavior without if/else.
 
 **Key concepts:**  
-- Pointers to member functions  
+- Pointers to member functions
 - Function dispatching  
-- Cleaner code structure vs conditional trees  
 - Mapping string input to behavior  
